@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário </title>
+    <link rel ="stylesheet" href="atividade 3.css">
+</head>
+<body>
+  <h1>Formulário</h1>  
+<form action="#">
+    
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha">
+
+    <label for="mensagem">Caixa de texto com várias linhas:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+
+    <label>Botões de Rádios:</label>
+    <input type="radio" id="masculino" name="sexo" value="masculino">
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="feminino" name="sexo" value="feminino">
+    <label for="feminino">Feminino</label>
+
+    <label>Checkboxes:</label>
+    <label for="a">A</label>
+    <input type="checkbox" id="a" name="vogais[]" value="A">
+
+    <label for="e">E</label>
+    <input type="checkbox" id="e" name="vogais[]" value="E">
+
+    <label for="i">I</label>
+    <input type="checkbox" id="i" name="vogais[]" value="I">
+
+    <label for="o">O</label>
+    <input type="checkbox" id="o" name="vogais[]" value="O">
+
+    <label for="u">U</label>
+    <input type="checkbox" id="u" name="vogais[]" value="U">
+
+    <label for="carros">Carros:</label>
+    <select id="carros" name="carros">
+        <option value="celta">Celta</option>
+        <option value="corsa">Corsa</option>
+        <option value="uno">Uno</option>
+        <option value="hondafit">Honda Fit</option>
+        <option value="hondacivic">Honda Civic</option>
+    </select>
+</form>
+
+</body>
+</html>
